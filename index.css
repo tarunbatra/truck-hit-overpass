@@ -1,0 +1,16 @@
+body {
+  background-color: #221e1e;
+  font-family: "Helvetica", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+h1 {
+  color: #e9e0e0;
+  font-size: 200px;
+}
+h2 {
+  color: #c28c8c;
+}
