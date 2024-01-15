@@ -36,7 +36,6 @@ function populateMain(lastIncident) {
   var main = document.getElementsByTagName("main")[0];
   var daysSince = getDaysSince(lastIncident.date);
   main.getElementsByTagName("h1")[0].innerHTML = daysSince;
-  main.getElementsByTagName("a")[0].href = lastIncident.link;
   main.getElementsByTagName("h2")[0].innerHTML =
     "days since a truck hit an overpass in Lower Mainland";
 }
